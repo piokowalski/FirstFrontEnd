@@ -2,11 +2,32 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgba(173, 222, 255, 0.863)
+  background-color: rgba(173, 222, 255, 0.301);
+  font-family: fantasy;
+  font-size: large;
+  cursor: grab;
 }
-label{
-    display: inline-block
-}
-{
 
+.form {
+    max-width: 500px;
+    margin: 32px auto;
+}
+
+.expanded {
+    width: 50%;
+    display: block;
+}
+
+.margin {
+    margin-top: 32px;
+}
+
+.button {
+    display: block;
+    max-width: 10ch;
+    padding: 8px;
+    height: 32px;
+    margin: 16px auto 32px auto;
+    background-color: rgba(65, 0, 0, 0.575);
+    border: 0;
 }

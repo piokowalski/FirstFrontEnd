@@ -9,12 +9,12 @@
 </head>
 <body>
 
-<form>
-  <label>
+<form class="form">
+  <label class="expanded margin">
     Full name: 
     <input type="text" name="fullname" required></label>
 
-  <label>
+  <label class="expanded margin">
     E-m@il: 
     <input type="email" name="e-mail" placeholder="mail@example.com"></label>
 
@@ -26,22 +26,24 @@
     <input type="radio" name="gender" value="female"></label> -->
 <!-- </form> -->
 
-<label>Choose your gender:</label>
+<label class="expanded margin">Choose your gender:</label>
 <select name="gender">
   <option value="male">Male</option>
   <option value="female">Female</option>
 </select>
 
 <p>Reason of contact:</p>
-<label>
+<label class="expanded margin">
   <input type="checkbox" name="reason" value="1">
   Congratulations</label>
 
   <label>
   <input type="checkbox" name="reason" value="2">
   Complain</label>
-  <input type="submit">
+
+  <input type="submit" class="button">
 </label>
+</form>
 
 </body>
 </html>
